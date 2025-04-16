@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Voting.Application.Interfaces.Repositories;
 
-internal interface IParticipantRepository
+public interface IParticipantRepository
 {
+    Task CreateParticipantAsync();
 }
